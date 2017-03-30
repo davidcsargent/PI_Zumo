@@ -14,9 +14,9 @@ try:
             if char == ord('q'):
                 break
             elif char == curses.KEY_UP:
-                print "up"
+                print "forward"
             elif char == curses.KEY_DOWN:
-                print "down"
+                print "back"
             elif char == curses.KEY_RIGHT:
                 print "right"
             elif char == curses.KEY_LEFT:
